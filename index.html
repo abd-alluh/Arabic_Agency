@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Adex</title>
+    <meta name="title" content="Adex" />
+    <meta
+      name="description"
+      content="This is a business agency html template made by codewithsadee"
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-bg.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg" />
+  </head>
+
+  <body>
+    <!-- 
+    - #HEADER
+  -->
+    <section id="Home">
+      <header class="header" data-header>
+        <div class="container">
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/logo-light.svg"
+              width="74"
+              height="24"
+              alt="Adex home"
+              class="logo-light"
+            />
+
+            <img
+              src="./assets/images/logo-dark.svg"
+              width="74"
+              height="24"
+              alt="Adex home"
+              class="logo-dark"
+            />
+          </a>
+
+          <nav class="navbar" data-navbar>
+            <div class="navbar-top">
+              <a href="#" class="logo">
+                <img
+                  src="./assets/images/logo-light.svg"
+                  width="74"
+                  height="24"
+                  alt="Adex home"
+                />
+              </a>
+
+              <button
+                class="nav-close-btn"
+                aria-label="close menu"
+                data-nav-toggler
+              >
+                <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+              </button>
+            </div>
+
+            <ul class="navbar-list">
+              <li>
+                <a href="#Home" class="navbar-link">الصفحة الرئيسية</a>
+              </li>
+
+              <li>
+                <a href="#About" class="navbar-link">من نحن</a>
+              </li>
+
+              <li>
+                <a href="#Projects" class="navbar-link">المشاريع</a>
+              </li>
+
+              <li>
+                <a href="#Blog" class="navbar-link">المدونة</a>
+              </li>
+
+              <li>
+                <a href="#Contact" class="navbar-link"></a>التواصل</a>
+              </li>
+            </ul>
+
+            <div class="wrapper">
+              <li>
+                <a href="mailto:abdalluh.samir.77@gmail.com" class="footer-link"
+                  >لبريد الإلكتروني</a
+                >
+              </li>
+
+              <li>
+                <a href="tel:+201556278173" class="footer-link">
+                  (15) 562 78 173</a
+                >
+              </li>
+              <li>
+                <a href="https://wa.me/201556278173" class="footer-link"
+                  >واتساب</a
+                >
+              </li>
+            </div>
+
+            <ul class="social-list">
+              <li>
+                <a
+                  href="https://x.com/abd_alluh_0?t=Gne-Xr7LTirP89cjJzkcBA&s=08"
+                  class="social-link"
+                >
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.facebook.com/share/kBZoKPVpaWqdEz3v/?mibextid=qi2Omg"
+                  class="social-link"
+                >
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-dribbble"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.instagram.com/abdalluh.samir?igsh=MWMyY21sM2M5ZjFuNg=="
+                  class="social-link"
+                >
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <a href="#" class="btn btn-primary">جربه مجانًا</a>
+
+          <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <div class="overlay" data-nav-toggler data-overlay></div>
+        </div>
+      </header>
+    </section>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section
+          class="section hero has-bg-image"
+          aria-label="home"
+          style="background-image: url('./assets/images/hero-bg.jpg')"
+        >
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="h1 hero-title" dir="rtl">
+                صياغة حلول متخصصة لمشاريع معينة بخبرة
+              </h1>
+
+              <p class="hero-text" dir="rtl">
+                نحن شركة إبداعية تركز على تأسيس علاقات طويلة الأمد مع العملاء
+              </p>
+
+              <div class="btn-wrapper">
+                <a href="#" class="btn btn-primary">"استكشف الآن"</a>
+
+                <a href="tel:+201556278173" class="btn btn-outline"
+                  >"اتصل بنا"</a
+                >
+              </div>
+            </div>
+
+            <div class="hero-slider" data-slider>
+              <div class="slider-inner">
+                <ul class="slider-container" data-slider-container>
+                  <li class="slider-item">
+                    <figure
+                      class="img-holder"
+                      style="--width: 575; --height: 550"
+                    >
+                      <img
+                        src="./assets/images/hero-slide-1.jpg"
+                        width="575"
+                        height="550"
+                        alt=""
+                        class="img-cover"
+                      />
+                    </figure>
+                  </li>
+
+                  <li class="slider-item">
+                    <div class="hero-card">
+                      <figure
+                        class="img-holder"
+                        style="--width: 575; --height: 550"
+                      >
+                        <img
+                          src="./assets/images/hero-slide-2.jpg"
+                          width="575"
+                          height="550"
+                          alt="hero banner"
+                          class="img-cover"
+                        />
+                      </figure>
+
+                      <button class="play-btn" aria-label="play adex intro">
+                        <ion-icon name="play" aria-hidden="true"></ion-icon>
+                      </button>
+                    </div>
+                  </li>
+
+                  <li class="slider-item">
+                    <figure
+                      class="img-holder"
+                      style="--width: 575; --height: 550"
+                    >
+                      <img
+                        src="./assets/images/hero-slide-3.jpg"
+                        width="575"
+                        height="550"
+                        alt=""
+                        class="img-cover"
+                      />
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+
+              <button
+                class="slider-btn prev"
+                aria-label="slide to previous"
+                data-slider-prev
+              >
+                <ion-icon name="arrow-back"></ion-icon>
+              </button>
+
+              <button
+                class="slider-btn next"
+                aria-label="slide to next"
+                data-slider-next
+              >
+                <ion-icon name="arrow-forward"></ion-icon>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section
+          id="Blog"
+          class="section service"
+          aria-labelledby="service-label"
+        >
+          <div class="container">
+            <p class="section-subtitle" id="service-label">ماذا نقوم به؟</p>
+
+            <h2 class="h2 section-title" dir="rtl">
+              الخدمة التي نقدمها مصممة خصيصًا لتلبية احتياجاتك
+            </h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title" dir="rtl">الدعم على مدار الساعة</h3>
+
+                  <p class="card-text" dir="rtl">
+                    تقدم الشركة دعماً للعملاء على مدار الساعة طوال أيام الأسبوع، بالإضافة إلى ذلك يمكنك ذكر الطرق المختلفة التي يمكن للعملاء الحصول على الدعم من خلالها، مثل الدردشة الحية، البريد الإلكتروني، أو الهاتف.
+                  </p>
+
+                  <a href="#" class="btn-text">
+                    <span class="span" dir="rtl">تعرف على المزيد</span>
+
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon
+                      name="shield-checkmark-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">المدفوعات الآمنة</h3>
+
+                  <p class="card-text" dir="rtl">
+                    تستخدم الشركة المدفوعات الآمنة لحماية معلومات العملاء. يمكنك أيضًا ذكر وسائل الدفع التي تقبلها الشركة.
+                  </p>
+
+                  <a href="#" class="btn-text">
+                    <span class="span">تعرف على المزيد</span>
+
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon
+                      name="cloud-download-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">التحديثات اليومية</h3>
+
+                  <p class="card-text" dir="rtl">
+                    .تقدم الشركة تحديثات يومية لمنتجاتها أو خدماتها. يمكنك أيضًا ذكر فوائد هذه التحديثات، مثل إضافة ميزات جديدة أو إصلاح الأخطاء.
+                  </p>
+
+                  <a href="#" class="btn-text">
+                    <span class="span">تعرف على المزيد</span>
+
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon
+                      name="pie-chart-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title" dir="rtl">البحث السوقي</h3>
+
+                  <p class="card-text" dir="rtl">
+                    تقوم الشركة بإجراء بحوث السوق للبقاء على اطلاع على الاتجاهات الصناعية. يمكنك أيضًا ذكر كيفية استخدام الشركة هذه الأبحاث لتحسين منتجاتها أو خدماتها.
+                  </p>
+
+                  <a href="#" class="btn-text">
+                    <span class="span">تعرف على المزيد</span>
+
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section id="About" class="about" aria-labelledby="about-label">
+          <div class="container">
+            <figure class="about-banner">
+              <img
+                src="./assets/images/about-banner.png"
+                width="800"
+                height="580"
+                loading="lazy"
+                alt="about banner"
+                class="w-100"
+              />
+            </figure>
+
+            <div class="about-content">
+              <p class="section-subtitle" id="about-label"dir="rtl">لماذا تختارنا؟</p>
+
+              <h2 class="h2 section-title" dir="rtl">
+                نحن نقدم حلولًا لتسهيل حياة عملائنا.
+              </h2>
+
+              <ul>
+                <li class="about-item">
+                  <div class="accordion-card expanded" data-accordion>
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon
+                          name="chevron-down-outline"
+                          aria-hidden="true"
+                          class="down"
+                        ></ion-icon>
+
+                        <spna class="span h5">تصميم احترافي</spna>
+                      </button>
+                    </h3>
+
+                    <p class="accordion-content">
+                      تم تصميم حلولنا بالاحترافية في المقدمة. استمتع بواجهات أنيقة وميزات سهلة الاستخدام تعزز تجربتك.
+                    </p>
+                  </div>
+                </li>
+
+                <li class="about-item">
+                  <div class="accordion-card" data-accordion>
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon
+                          name="chevron-down-outline"
+                          aria-hidden="true"
+                          class="down"
+                        ></ion-icon>
+
+                        <spna class="span h5">دعم متميز</spna>
+                      </button>
+                    </h3>
+
+                    <p class="accordion-content">
+                      تعتمد علينا لتقديم الدعم الاستثنائي في أي وقت تحتاج فيه. فريقنا المتفاني متاح 24/7 لمساعدتك في أي استفسار أو مخاوف تواجهها.
+                    </p>
+                  </div>
+                </li>
+
+                <li class="about-item">
+                  <div class="accordion-card" data-accordion>
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon
+                          name="chevron-down-outline"
+                          aria-hidden="true"
+                          class="down"
+                        ></ion-icon>
+
+                        <spna class="span h5">أصول حصرية</spna>
+                      </button>
+                    </h3>
+
+                    <p class="accordion-content">
+                      استفد من موارد فريدة تمنحك الأفضلية. استكشف فرص الاستثمار الراقية والأدوات المتخصصة المصممة خصيصًا لتلبية احتياجاتك.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #FEATURE
+      -->
+
+        <section class="section feature" aria-labelledby="feature-label">
+          <div class="container">
+            <figure class="feature-banner">
+              <img
+                src="./assets/images/feature-banner.png"
+                width="800"
+                height="531"
+                loading="lazy"
+                alt="feature banner"
+                class="w-100"
+              />
+            </figure>
+
+            <div class="feature-content">
+              <p class="section-subtitle" id="feautre-label">حلولنا</p>
+
+              <h2 class="h2 section-title">
+                نجعل إنفاقك خالياً من التوتر لتحصل على السيطرة المثالية.
+              </h2>
+
+              <p class="section-text">
+                مهمتنا هي تخفيف التوتر المرتبط بالإنفاق، مما يتيح لك الحفاظ على السيطرة المثالية على أمورك المالية بسهولة. من خلال أدواتنا سهلة الاستخدام وإرشادنا الخبير، نمنحك القدرة على السير في رحلتك المالية بثقة وسلام العقل.
+              </p>
+
+              <ul class="feature-list">
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> إدارة الإنفاق المبسطة. </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">
+                      حلول تخطيط الميزانية الشخصية المخصصة.
+                    </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> مراقبة وتنبيهات فورية في الوقت الحقيقي. </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> إرشاد ودعم خبير. </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #STATS
+      -->
+
+        <section class="stats" aria-label="our stats">
+          <div class="container">
+            <ul
+              class="stats-card has-bg-image"
+              style="background-image: url('./assets/images/stats-bg.jpg')"
+            >
+              <li>
+                <p class="card-text">
+                  <span class="h1">7518</span>
+
+                  <spna class="span">المشاريع المكتملة</spna>
+                </p>
+              </li>
+
+              <li>
+                <p class="card-text">
+                  <span class="h1">3472</span>
+
+                  <spna class="span">عملاء سعداء</spna>
+                </p>
+              </li>
+
+              <li>
+                <p class="card-text">
+                  <span class="h1">2184</span>
+
+                  <spna class="span">موظفون متخصصون</spna>
+                </p>
+              </li>
+
+              <li>
+                <p class="card-text">
+                  <span class="h1">4523</span>
+
+                  <spna class="span">الجوائز التي حازت عليها</spna>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #PROJECT
+      -->
+
+        <section
+          id="Projects"
+          class="section project"
+          aria-labelledby="project-label"
+        >
+          <div class="container">
+            <p class="section-subtitle" id="project-label">دراسات الحالة</p>
+
+            <h2 class="h2 section-title">
+              تحقق من بعض مشاريعنا الرائعة مع أفكار إبداعية وتصميم رائع.
+            </h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="project-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 560; --height: 350"
+                  >
+                    <img
+                      src="./assets/images/blog-1.jpg"
+                      width="560"
+                      height="350"
+                      loading="lazy"
+                      alt="CodeCrafters Platform"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a href="#" class="card-title">منصة CodeCrafters</a>
+                    </h3>
+
+                    <p class="card-text">
+                      منصة لهواة البرمجة. اصقل مهاراتك، وتحدى التحديات، وتواصل مع مطورين آخرين في بيئة مجتمعية داعمة.
+                    </p>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="calendar-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <time class="meta-text" datetime="2022-04-14"
+                          >14 Apr 2022</time
+                        >
+                      </li>
+
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="document-text-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="meta-text">Coding</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="project-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 560; --height: 350"
+                  >
+                    <img
+                      src="./assets/images/blog-2.jpg"
+                      width="560"
+                      height="350"
+                      loading="lazy"
+                      alt="WorkspaceWise"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a href="#" class="card-title">WorkspaceWise</a>
+                    </h3>
+
+                    <p class="card-text">
+                      جعل العمل الجماعي أسهل مع WorkspaceWise. تعاون بسلاسة، وأدر المهام، وتتبع التقدم، كل ذلك في مركز مركزي واحد لتعزيز الإنتاجية.
+                    </p>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="calendar-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <time class="meta-text" datetime="2022-03-29"
+                          >29 Mar 2022</time
+                        >
+                      </li>
+
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="document-text-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="meta-text">Workspace</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="project-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 560; --height: 350"
+                  >
+                    <img
+                      src="./assets/images/blog-3.jpg"
+                      width="560"
+                      height="350"
+                      loading="lazy"
+                      alt="MeetEase"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a href="#" class="card-title">MeetEase</a>
+                    </h3>
+
+                    <p class="card-text">
+                      حسِّن سير اجتماعاتك مع MeetEase. قم بجدولة وتنظيم وإجراء الاجتماعات بسهولة مع الأدوات المتكاملة لتسهيل التواصل والمتابعة.
+                    </p>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="calendar-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <time class="meta-text" datetime="2022-02-26"
+                          >26 Feb 2022</time
+                        >
+                      </li>
+
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="document-text-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="meta-text">Meeting</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #CTA
+      -->
+
+        <section id="Contact" class="cta" aria-label="call to action">
+          <div class="container">
+            <h2 class="h2 section-title">
+              انضم إلى مجتمعنا من خلال استخدام خدماتنا وقم بتنمية عملك.
+            </h2>
+
+            <a href="#" class="btn btn-primary">جربه مجانًا</a>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container grid-list">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/logo-light.svg"
+              width="74"
+              height="24"
+              alt="Adex home"
+            />
+          </a>
+
+          <p class="footer-text">
+            &copy; 2022 codewithsadee. <br />
+            All rights reserved.
+          </p>
+
+          <ul class="social-list">
+            <li>
+              <a
+                href="https://www.facebook.com/share/kBZoKPVpaWqdEz3v/?mibextid=qi2Omg"
+                class="social-link"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://x.com/abd_alluh_0?t=Gne-Xr7LTirP89cjJzkcBA&s=08"
+                class="social-link"
+              >
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/abdalluh.samir?igsh=MWMyY21sM2M5ZjFuNg=="
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="footer-list">
+          <li>
+            <p class="h4 footer-list-title">Get in Touch</p>
+          </li>
+
+          <li>
+            <address class="footer-text">
+              الإسكندرية، مصر
+            </address>
+          </li>
+
+          <li>
+            <a href="mailto:abdalluh.samir.77@gmail.com" class="footer-link"
+              >البريد الإلكتروني</a
+            >
+          </li>
+
+          <li>
+            <a href="tel:+201556278173" class="footer-link"> (15) 562 78 173</a>
+          </li>
+          <li>
+            <a href="https://wa.me/201556278173" class="footer-link"
+              >واتساب</a
+            >
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+          <li>
+            <p class="h4 footer-list-title">تعرف على المزيد</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">معلومات عنا</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">قصتنا</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">المشاريع</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms of Use</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+        </ul>
+
+        <div class="footer-list">
+          <p class="h4 footer-list-title">Our Newsletter</p>
+
+          <p class="footer-text">
+            Subscribe to our newsletter to get our news & deals delivered to
+            you.
+          </p>
+
+          <form action="" class="input-wrapper">
+            <input
+              type="email"
+              name="email_address"
+              placeholder="Email Address"
+              required
+              class="input-field"
+            />
+
+            <button type="submit" class="submit-btn">Join</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
